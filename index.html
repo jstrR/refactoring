@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/styles.css">
+		<title>Game.js</title>
+		<meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<header>
+			<nav class="nav-bar">
+				<span class="game-name">Game.js</span>
+				<ul>
+					<li><a href="#screenshots">Screenshots</a></li>
+					<li><a href="#login">Play</a></li>
+					<li><a href="#developer">Developer</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<h2>The worst game u've ever seen!</h2>
+			<h1>Game.js</h1>
+			<section class="gameplay-lib" id="screenshots">
+				<h3>Screenshots</h3>
+				<img src="assets/img/gameplay-illustraion1.png" alt="gameplay-illustraion">
+				<img src="assets/img/gameplay-illustraion2.png" alt="gameplay-illustraion">
+				<img src="assets/img/gameplay-illustraion3.png" alt="gameplay-illustraion">
+			</section>
+			<section class="authorisation">
+				<h3>Play</h3>
+				<form id="login" method="GET" action="game/dist/index.html">
+					<label for="firstName">First name:</label>
+					<input id="firstName" type="text" name="firstname" value="" required>
+					<label for="lastName">Last name:</label>
+					<input id="lastName" type="text" name="lasrname" value="" required>
+					<button id="submit" type="submit" form="login" class="form-btn">Start game</button>
+				</form>
+			</section>
+			<section class="author-info" id="developer">
+				<h3>Developer: Siarhei Roukach</h3>
+				<img src="assets/img/developer-logo.jpg" alt="developer-logo">
+				<span class="author-link">Skype: sergeirovkach2</span>
+				<a href="https://github.com/jstrR" class="author-link">Github: https://github.com/jstrR</a>
+			</section>
+		</main>
+		<footer>
+			<span class="footer-text">2018</span>
+		</footer>
+		<script src="js/index.js"></script>
+	</body>
+</html>

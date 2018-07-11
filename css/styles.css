@@ -1,0 +1,225 @@
+@font-face{
+  font-family: 'Lato';
+  src: url('../assets/fonts/Lato/Lato-Regular.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;   
+}
+
+@font-face{
+  font-family: 'Lato';
+  src: url('../assets/fonts/Lato/Lato-Italic.ttf') format("truetype");
+  font-weight: normal;
+  font-style: italic;   
+}
+
+@font-face{
+  font-family: 'Lato';
+  src: url('../assets/fonts/Lato/Lato-Bold.ttf') format("truetype");
+  font-weight: bold;
+  font-style: normal;   
+}
+
+@font-face{
+  font-family: 'RobotoSlab';
+  src: url('../assets/fonts/Roboto Slab/RobotoSlab-Bold.ttf') format("truetype");
+  font-weight: bold;
+  font-style: normal;   
+}
+
+@font-face{
+  font-family: 'RobotoSlab';
+  src: url('../assets/fonts/Roboto Slab/RobotoSlab-Regular.ttf') format("truetype");
+  font-weight: bold;
+  font-style: normal;   
+}
+
+* { box-sizing: border-box; }
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+body { 
+  background: radial-gradient(#BFD6E2 1px, rgba(255,255,255,0) 2px);
+  background-size: 10px 10px;
+  max-width: 1920px;
+}
+
+header{
+  max-width: 1680px;
+  padding-top: 20px;
+  background: rgba(255,255,255,.8);
+  position: fixed;
+  width: 100%;
+  min-height: 90px;
+  margin-left: 125px;
+}
+
+main {
+  max-width: 1680px;
+  margin: 0 auto;
+  margin-top: 0px;
+  background: rgba(255,255,255,.8);
+}
+
+a{
+  text-decoration: none;
+  color: #498fff;
+}
+
+h1{
+  text-align: center;
+  font-family: 'RobotoSlab', Arial;
+  font-size: 60px;
+  color: #35a0dd;
+  padding-top: 40px;
+}
+
+h2{
+  padding-top: 130px;
+  text-align: center;
+  font-family: 'Lato', Arial;
+  font-size: 30px;
+  color: #35a0dd;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h3{
+  padding-top: 95px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: 'RobotoSlab', Arial;
+  font-size: 30px;
+  color: #35a0dd;
+}
+
+label,
+.author-link{
+  font-size: 25px;
+  font-family: 'Lato', Arial;
+  margin-right: 25px;
+  margin-left: 20px;
+  color: #35a0dd;
+}
+
+input{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  width: 300px;
+}
+
+img{
+  height: 300px;
+  margin-top: 30px;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.game-name{
+  font-family: 'RobotoSlab', Arial;
+  font-size: 25px;
+  color: #498fff;
+  font-weight: bold;
+  margin-left: 10%;
+}
+
+.nav-bar ul{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10%;
+}
+
+.nav-bar li{
+  margin-left: 45px;
+  font-family: 'RobotoSlab', Arial;
+  font-size: 25px;
+  color: #498fff;
+  font-weight: bold;
+}
+
+.gameplay-lib{
+  min-height: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.authorisation{
+  min-height: 500px;
+  text-align: center;
+}
+
+form{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-btn{
+  margin-top: 10px;
+  color: #35a0dd;
+  font-family: 'Lato', Arial;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: rgba(255,255,255,.8);
+  border-radius: 5px;
+  border: 2px solid #ccc;
+}
+
+.author-info{
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
+.author-info img{
+  border-radius: 50%; 
+}
+
+.author-link{
+  margin-top: 20px;
+}
+
+footer{
+  max-width: 1680px;
+  background: rgba(255,255,255,.8);
+  min-height: 90px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer-text{
+  font-family: 'RobotoSlab', Arial;
+  font-size: 25px;
+  color: #498fff;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
